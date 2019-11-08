@@ -1,4 +1,10 @@
 # duktape4j
+```
+cmake -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_C_FLAGS=-std=c99 -fstrict-aliasing \
+    -DCMAKE_CXX_FLAGS=-std=c++11 -fstrict-aliasing -fexceptions \ 
+    ..
+```
 
 [![AppVeyor](https://img.shields.io/appveyor/ci/WebFolder/duktape4j.svg?label=Windows)](https://ci.appveyor.com/project/WebFolder/duktape4j) [![circleci](https://img.shields.io/appveyor/ci/WebFolder/duktape4j.svg?label=Ubuntu)](https://circleci.com/gh/webfolderio/duktape4j) [![travis](https://img.shields.io/travis/webfolderio/duktape4j.svg?label=macOS)](https://travis-ci.org/webfolderio/duktape4j)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwebfolderio%2Fduktape4j.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwebfolderio%2Fduktape4j?ref=badge_shield)
